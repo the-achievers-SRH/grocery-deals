@@ -1,1 +1,1 @@
-# grocery-deals
+This is a grocery deals finder.
