@@ -1,8 +1,10 @@
 import "./App.css";
 
-import Home from "./Components/Home/Home";
-
 import { Routes, Route, Link, } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Products from "./Components/Products/Products";
+import About from "./Components/About/About";
+import Login from "./Components/Login/Login";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       {/* routes */}
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/products' element={<Products/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/login' element={<Login/>} />
         </Routes>
 
       {/* <Switch>
