@@ -11,3 +11,8 @@ nav{
 nav h1 {
   margin-right: auto;
 }
+
+/* disabling scrollbar  */
+::-webkit-scrollbar {
+  display: none;
+}
