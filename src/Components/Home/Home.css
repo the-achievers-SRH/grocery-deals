@@ -1,0 +1,22 @@
+.category {
+    display: flex;
+    gap: 20px;
+    border-radius: 100%;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.cart{
+    align-items: center;
+    float: left;
+    width: 18rem;
+    border-radius: 100%;
+}
+
+.cat_cart{
+    width: 18rem;
+}
+
+.img{
+    border-radius: 100%;
+}
