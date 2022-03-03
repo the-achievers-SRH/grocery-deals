@@ -1,0 +1,18 @@
+/* .panelAndList, .filterPanel, .productList {
+    overflow-y: auto;
+} */
+
+.panelAndList {
+    display: flex;
+    /* to stretch it to bottom */
+    height: 800px;
+}
+
+.filterPanel {
+    flex-basis: 280px;
+}
+
+.productList{
+    flex: 1;
+    overflow-y: auto;
+}
