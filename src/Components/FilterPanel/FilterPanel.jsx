@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SearchIcon from '@material-ui/icons/Search'
 import Select from '@material-ui/core/Select'
 import './FilterPanel.css'
-import { InputLabel, MenuItem, makeStyles, FormControl } from '@material-ui/core'
+import { InputLabel, MenuItem, makeStyles, FormControl, Button } from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
   filters: {
@@ -86,8 +86,11 @@ const FilterPanel = () => {
             </FormControl>
           </div>
         
-      </div>
+        <div>
+          <Button>Search</Button>
+        </div>
 
+      </div>
     </div>
   )
 }
