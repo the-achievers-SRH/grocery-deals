@@ -1,0 +1,35 @@
+.full-page{
+    background-color: #F0F6DD;
+    height: 757px;
+    display: block;
+}
+.image{
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+
+.header{
+    align-items: center;
+}
+
+.aligment{
+    float: left;
+    width: 300px;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+.text{
+    align-items: center;
+}
+
+.text-aling{
+    text-align: justify;
+}
+
+.text-space{
+    height: 7px;
+}
