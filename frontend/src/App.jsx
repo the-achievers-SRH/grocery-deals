@@ -8,6 +8,7 @@ import ProductList from "./Components/ProductList/ProductList";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import {Container} from 'react-bootstrap'
+import Products from "./Pages/Products/Products";
 
 function App() {
   return (
@@ -19,7 +20,6 @@ function App() {
         <h1>Welcome to Grocerilla</h1>
         </Container>
       </main>
-      <Footer/>
 
       {/* navbar */}
       <nav>
@@ -32,7 +32,7 @@ function App() {
       {/* routes */}
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/products' element={<ProductList/>} />
+          <Route path='/products' element={<Products/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/login' element={<Login/>} />
         </Routes>
@@ -40,6 +40,7 @@ function App() {
       {/* <Switch>
         <Route path="/" exact component={Home} />
       </Switch> */}
+      <Footer/>
     </div>
   );
 }
