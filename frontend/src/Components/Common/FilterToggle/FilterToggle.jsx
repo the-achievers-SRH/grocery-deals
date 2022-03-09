@@ -34,7 +34,7 @@ const useStyles = makeStyles({
   },
 });
 
-const FilterListToggle = ({ options, value, selectToggle }) => {
+const FilterToggle = ({ options, value, selectToggle }) => {
   const classes = useStyles();
   return (
     <ToggleButtonGroup
@@ -52,4 +52,4 @@ const FilterListToggle = ({ options, value, selectToggle }) => {
   );
 };
 
-export default FilterListToggle;
+export default FilterToggle;
