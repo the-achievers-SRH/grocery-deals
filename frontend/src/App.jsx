@@ -5,10 +5,21 @@ import About from "./Components/About/About";
 import Login from "./Components/Login/Login";
 import Home from "./Components/Home/HomePage/HomePage";
 import ProductList from "./Components/ProductList/ProductList";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import {Container} from 'react-bootstrap'
 
 function App() {
   return (
     <div className="App">
+
+      <Header/>
+      <main className='py-3'>
+        <Container>
+        <h1>Welcome to Grocerilla</h1>
+        </Container>
+      </main>
+      <Footer/>
 
       {/* navbar */}
       <nav>
