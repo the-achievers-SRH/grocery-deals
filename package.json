@@ -1,0 +1,24 @@
+{
+  "name": "grocery-deals",
+  "version": "1.0.0",
+  "description": "Grocery deals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-achievers-SRH/grocery-deals.git"
+  },
+  "author": "The Achievers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-achievers-SRH/grocery-deals/issues"
+  },
+  "homepage": "https://github.com/the-achievers-SRH/grocery-deals#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
