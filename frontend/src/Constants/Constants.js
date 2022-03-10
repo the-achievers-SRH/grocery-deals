@@ -9,6 +9,8 @@ export const products = [
         category: 'Vegetables',
         price: 2.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '2',
@@ -19,6 +21,8 @@ export const products = [
         category: 'Vegetables',
         price: 1.99,
         countInStock: 10,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '3',
@@ -29,6 +33,8 @@ export const products = [
         category: 'Vegetables',
         price: 3.99,
         countInStock: 40,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '4',
@@ -39,6 +45,8 @@ export const products = [
         category: 'Vegetables',
         price: 4.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '5',
@@ -49,6 +57,8 @@ export const products = [
         category: 'Vegetables',
         price: 6.99,
         countInStock: 30,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '6',
@@ -59,6 +69,8 @@ export const products = [
         category: 'Vegetables',
         price: 2.99,
         countInStock: 80,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '7',
@@ -69,6 +81,8 @@ export const products = [
         category: 'Fruits',
         price: 1.99,
         countInStock: 250,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '8',
@@ -79,6 +93,8 @@ export const products = [
         category: 'Vegetables',
         price: 3.99,
         countInStock: 40,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '9',
@@ -89,6 +105,8 @@ export const products = [
         category: 'Vegetables',
         price: 4.99,
         countInStock: 9,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '10',
@@ -99,6 +117,8 @@ export const products = [
         category: 'Fruits',
         price: 1.59,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '11',
@@ -109,6 +129,8 @@ export const products = [
         category: 'Fruits',
         price: 1.00,
         countInStock: 20,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '12',
@@ -119,6 +141,8 @@ export const products = [
         category: 'Fruits',
         price: 11.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '13',
@@ -129,6 +153,8 @@ export const products = [
         category: 'Fruits',
         price: 4.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '14',
@@ -139,6 +165,8 @@ export const products = [
         category: 'Fruits',
         price: 1.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '15',
@@ -149,6 +177,8 @@ export const products = [
         category: 'Vegetables',
         price: 19.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '16',
@@ -159,6 +189,8 @@ export const products = [
         category: 'Fruits',
         price: 15.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '17',
@@ -169,6 +201,8 @@ export const products = [
         category: 'Fruits',
         price: 12.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '18',
@@ -179,6 +213,8 @@ export const products = [
         category: 'Fruits',
         price: 13.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '19',
@@ -189,6 +225,8 @@ export const products = [
         category: 'Meet',
         price: 21.00,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '20',
@@ -199,6 +237,8 @@ export const products = [
         category: 'Meet',
         price: 21.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '21',
@@ -209,6 +249,8 @@ export const products = [
         category: 'Meet',
         price: 23.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '22',
@@ -219,6 +261,8 @@ export const products = [
         category: 'Meet',
         price: 51.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '23',
@@ -229,6 +273,8 @@ export const products = [
         category: 'Meet',
         price: 31.99,
         countInStock: 250,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '24',
@@ -239,6 +285,8 @@ export const products = [
         category: 'Meet',
         price: 21.99,
         countInStock: 90,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '25',
@@ -249,6 +297,8 @@ export const products = [
         category: 'Organic',
         price: 11.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '26',
@@ -259,6 +309,8 @@ export const products = [
         category: 'Organic',
         price: 12.00,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '27',
@@ -269,6 +321,8 @@ export const products = [
         category: 'Organic',
         price: 9.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '28',
@@ -279,6 +333,8 @@ export const products = [
         category: 'Organic',
         price: 7.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '29',
@@ -289,6 +345,8 @@ export const products = [
         category: 'Organic',
         price: 5.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
     {
         _id: '30',
@@ -299,5 +357,7 @@ export const products = [
         category: 'Organic',
         price: 2.99,
         countInStock: 50,
+        rating: 4.5,
+        reviewsNum: 4
     },
 ]
