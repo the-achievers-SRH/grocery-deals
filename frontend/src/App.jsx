@@ -31,13 +31,19 @@ function App() {
       </nav> */}
 
       {/* routes */}
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Home/>} exact />
           <Route path='/products' element={<Products/>} />
           <Route path='/product/:id' element={<Product/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/login' element={<Login/>} />
-        </Routes>
+        </Routes> */}
+
+        <Route path='/' component={Home} exact />
+        <Route path='/products' component={Products} />
+        <Route path='/product/:id' component={Product} />
+        <Route path='/about' component={About} />
+        <Route path='/login' component={Login} />
 
       {/* <Switch>
         <Route path="/" exact component={Home} />
