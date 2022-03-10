@@ -9,6 +9,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import {Container} from 'react-bootstrap'
 import Products from "./Pages/Products/Products";
+import Product from "./Pages/Product/Product";
 
 function App() {
   return (
@@ -22,17 +23,18 @@ function App() {
       </main>
 
       {/* navbar */}
-      <nav>
+      {/* <nav>
         <h1>Grocery Deals Tracker</h1>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/login">Login</Link>
-      </nav>
+      </nav> */}
 
       {/* routes */}
         <Routes>
-          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Home/>} exact />
           <Route path='/products' element={<Products/>} />
+          <Route path='/product/:id' element={<Product/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/login' element={<Login/>} />
         </Routes>
