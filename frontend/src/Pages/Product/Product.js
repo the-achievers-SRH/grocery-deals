@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {
   Row,
@@ -10,11 +10,25 @@ import {
   ListGroupItem,
 } from "react-bootstrap";
 import Rating from "../../Components/Rating/Rating";
-import { products } from "../../Constants/Constants";
+// import { products } from "../../Constants/Constants";
+import axios from 'axios'
+
 
 const Product = (props) => {
-  const product = products.find((p) => p._id === props.match.params.id);
+  // const product = products.find((p) => p._id === props.match.params.id);
   // console.log(product);
+
+  const [product, setProduct] = useState([])
+
+  useEffect(() => {
+    const fetchProduct = async () => {
+      const res = await axios.get(`/api/products/${props.match.params.id}`)
+      setProduct(res.data)
+    }
+    fetchProduct()
+  }, [props.match])
+
+
   return (
     // <div>
     //   {product.name}
