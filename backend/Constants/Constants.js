@@ -1,5 +1,5 @@
 
-const products = [
+export const products = [
     {
         _id: '1',
         name: 'Tomato',
@@ -362,4 +362,4 @@ const products = [
     },
 ]
 
-module.exports = products
+// module.exports = products
