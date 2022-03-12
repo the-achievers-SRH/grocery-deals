@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import {Container} from 'react-bootstrap'
 import Products from "./Pages/Products/Products";
 import Product from "./Pages/Product/Product";
+import Cart from "./Pages/Cart/Cart";
 
 function App() {
   return (
@@ -19,6 +20,12 @@ function App() {
       <main className='py-3'>
         <Container>
         <h1>Welcome to Grocerilla</h1>
+        <Route path='/' component={Home} exact />
+        <Route path='/products' component={Products} />
+        <Route path='/product/:id' component={Product} />
+        <Route path='/about' component={About} />
+        <Route path='/login' component={Login} />
+        <Route path='/cart/:id?' component={Cart} />
         </Container>
       </main>
 
@@ -39,11 +46,7 @@ function App() {
           <Route path='/login' element={<Login/>} />
         </Routes> */}
 
-        <Route path='/' component={Home} exact />
-        <Route path='/products' component={Products} />
-        <Route path='/product/:id' component={Product} />
-        <Route path='/about' component={About} />
-        <Route path='/login' component={Login} />
+        
 
       {/* <Switch>
         <Route path="/" exact component={Home} />
