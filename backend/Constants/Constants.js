@@ -1,7 +1,6 @@
 
 export const products = [
     {
-        _id: '1',
         name: 'Tomato',
         image: '/Images/ProductImages/tomato.jpg',
         description: 'anything temp',
@@ -13,7 +12,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '2',
         name: 'Tomato',
         image: '/Images/ProductImages/tomato1.jpg',
         description: 'anything temp',
@@ -25,7 +23,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '3',
         name: 'Tomato',
         image: '/Images/ProductImages/tomato2.jpg',
         description: 'anything temp',
@@ -37,7 +34,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '4',
         name: 'Onion',
         image: '/Images/ProductImages/onion.jpg',
         description: 'anything temp',
@@ -49,7 +45,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '5',
         name: 'Onion',
         image: '/Images/ProductImages/onion1.jpg',
         description: 'anything temp',
@@ -61,7 +56,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '6',
         name: 'Onion',
         image: '/Images/ProductImages/onion2.jpg',
         description: 'anything temp',
@@ -73,7 +67,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '7',
         name: 'Banana',
         image: '/Images/ProductImages/banana.jpg',
         description: 'anything temp',
@@ -85,7 +78,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '8',
         name: 'Cucumber',
         image: '/Images/ProductImages/cucumber.jpg',
         description: 'anything temp',
@@ -97,7 +89,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '9',
         name: 'Cucumber',
         image: '/Images/ProductImages/cucumber1.jpg',
         description: 'anything temp',
@@ -109,7 +100,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '10',
         name: 'Banana',
         image: '/Images/ProductImages/banana1.jpg',
         description: 'anything temp',
@@ -121,7 +111,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '11',
         name: 'Banana',
         image: '/Images/ProductImages/banana2.jpg',
         description: 'anything temp',
@@ -133,7 +122,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '12',
         name: 'Apple',
         image: '/Images/ProductImages/apple.jpg',
         description: 'anything temp',
@@ -145,7 +133,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '13',
         name: 'Apple',
         image: '/Images/ProductImages/apple1.jpg',
         description: 'anything temp',
@@ -157,7 +144,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '14',
         name: 'Apple',
         image: '/Images/ProductImages/apple2.jpg',
         description: 'anything temp',
@@ -169,7 +155,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '15',
         name: 'Cucumber',
         image: '/Images/ProductImages/cucumber2.jpg',
         description: 'anything temp',
@@ -181,7 +166,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '16',
         name: 'Orange',
         image: '/Images/ProductImages/orange.jpg',
         description: 'anything temp',
@@ -193,7 +177,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '17',
         name: 'Orange',
         image: '/Images/ProductImages/orange1.jpg',
         description: 'anything temp',
@@ -205,7 +188,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '18',
         name: 'Orange',
         image: '/Images/ProductImages/orange2.jpg',
         description: 'anything temp',
@@ -217,7 +199,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '19',
         name: 'Chicken',
         image: '/Images/ProductImages/chicken.jpg',
         description: 'anything temp',
@@ -229,7 +210,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '20',
         name: 'Chicken',
         image: '/Images/ProductImages/chicken1.jpg',
         description: 'anything temp',
@@ -241,7 +221,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '21',
         name: 'Chicken',
         image: '/Images/ProductImages/chicken2.jpg',
         description: 'anything temp',
@@ -253,7 +232,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '22',
         name: 'Mutton',
         image: '/Images/ProductImages/mutton.jpg',
         description: 'anything temp',
@@ -265,7 +243,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '23',
         name: 'Mutton',
         image: '/Images/ProductImages/mutton1.jpg',
         description: 'anything temp',
@@ -277,7 +254,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '24',
         name: 'Mutton',
         image: '/Images/ProductImages/mutton2.jpg',
         description: 'anything temp',
@@ -289,7 +265,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '25',
         name: 'Beans',
         image: '/Images/ProductImages/beans.jpg',
         description: 'anything temp',
@@ -301,7 +276,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '26',
         name: 'Beans',
         image: '/Images/ProductImages/beans1.jpg',
         description: 'anything temp',
@@ -313,7 +287,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '27',
         name: 'Beans',
         image: '/Images/ProductImages/beans2.jpg',
         description: 'anything temp',
@@ -325,7 +298,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '28',
         name: 'Capsicum',
         image: '/Images/ProductImages/capsicum.jpg',
         description: 'anything temp',
@@ -337,7 +309,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '29',
         name: 'Capsicum',
         image: '/Images/ProductImages/capsicum1.jpg',
         description: 'anything temp',
@@ -349,7 +320,6 @@ export const products = [
         reviewsNum: 4
     },
     {
-        _id: '30',
         name: 'Capsicum',
         image: '/Images/ProductImages/capsicum2.jpg',
         description: 'anything temp',

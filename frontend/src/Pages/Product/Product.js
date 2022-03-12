@@ -8,6 +8,7 @@ import {
   Card,
   Button,
   ListGroupItem,
+  Form,
 } from "react-bootstrap";
 import Rating from "../../Components/Rating/Rating";
 // import { products } from "../../Constants/Constants";
@@ -19,6 +20,7 @@ const Product = (props) => {
   // console.log(product);
 
   const [product, setProduct] = useState([])
+  const [qty, setQty] = useState(0)
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -27,6 +29,10 @@ const Product = (props) => {
     }
     fetchProduct()
   }, [props.match])
+
+  const addToCartHandler = () => {
+    props.history.push(`/cart/${props.match.params.id}?qty=${qty}`)
+  }
 
 
   return (
@@ -93,9 +99,27 @@ const Product = (props) => {
                   </Col>
                 </Row>
               </ListGroup.Item>
+              {/* Qty */}
+              {product.countInStock > 0 && (
+                <ListGroup.Item>
+                  <Row>
+                    <Col>Qty</Col>
+                    <Col>
+                      <Form.Control as='select' value={qty} onChange={(e) => setQty(e.target.value)}>
+                        {[...Array(product.countInStock).keys()].map((x) => (
+                          <option key={x + 1} value = {x+1}>
+                            {x +1}
+                          </option>
+                        ))}
+                      </Form.Control>
+                    </Col>
+                  </Row>
+                </ListGroup.Item>
+              )}
               {/* add to cart button */}
               <ListGroup.Item>
                 <Button
+                  onClick={addToCartHandler}
                   className="btn-block"
                   type="button"
                   disabled={product.countInStock === 0}
