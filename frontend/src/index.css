@@ -1,48 +1,53 @@
 main {
-  height: 80
+  min-height: 80vh;
 }
-
-/* nav{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin: 0 auto;
-    border-bottom: 1px solid #e2e2e2;
-    margin-bottom: 40px;
-} */
-
-/* nav h1 {
-  margin-right: auto;
-} */
-
-/* disabling scrollbar  */
-/* ::-webkit-scrollbar {
-  display: none;
-} */
-
-/* universal selection using sudo selectors */
-/* *, *::after, *::before {
-  margin: 0;
-} */
-
-/* body {
-  font-family: 'Raleway', sans-serif;
-  margin: 20px;
-} */
-
-/* input {
-  font-family: 'Raleway', sans-serif;
-} */
 
 h3 {
   padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
 }
 
 .rating span {
   margin: 0.1rem;
 }
 
-.container {
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
 }
